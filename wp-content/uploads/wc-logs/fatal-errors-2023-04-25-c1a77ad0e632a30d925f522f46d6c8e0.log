@@ -1,0 +1,54 @@
+2023-04-25T06:27:38+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in C:\xampp\htdocs\the-sporacle\wp-content\plugins\woocommerce\src\Internal\ProductAttributesLookup\LookupDataStore.php on line 378 and defined in C:\xampp\htdocs\the-sporacle\wp-content\plugins\woocommerce\src\Internal\ProductAttributesLookup\LookupDataStore.php:516
+Stack trace:
+#0 C:\xampp\htdocs\the-sporacle\wp-content\plugins\woocommerce\src\Internal\ProductAttributesLookup\LookupDataStore.php(378): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 C:\xampp\htdocs\the-sporacle\wp-content\plugins\woocommerce\src\Internal\ProductAttributesLookup\LookupDataStore.php(283): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 C:\xampp\htdocs\the-sporacle\wp-content\plugins\woocommerce in C:\xampp\htdocs\the-sporacle\wp-content\plugins\woocommerce\src\Internal\ProductAttributesLookup\LookupDataStore.php on line 516
+
+2023-04-25T06:36:38+00:00 CRITICAL syntax error, unexpected ''post_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 142
+
+2023-04-25T06:38:15+00:00 CRITICAL syntax error, unexpected ''post_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 142
+
+2023-04-25T06:38:35+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 142
+
+2023-04-25T06:39:09+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 142
+
+2023-04-25T06:39:24+00:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 143
+
+2023-04-25T06:40:07+00:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 143
+
+2023-04-25T06:41:21+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php:143
+Stack trace:
+#0 C:\xampp\htdocs\the-sporacle\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\the-sporacle\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\the-sporacle\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 143
+
+2023-04-25T06:43:29+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php:143
+Stack trace:
+#0 C:\xampp\htdocs\the-sporacle\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\the-sporacle\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\the-sporacle\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 143
+
+2023-04-25T06:43:48+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php:143
+Stack trace:
+#0 C:\xampp\htdocs\the-sporacle\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\the-sporacle\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\the-sporacle\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 143
+
+2023-04-25T06:44:47+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 142
+
+2023-04-25T06:45:13+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 142
+
+2023-04-25T06:46:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php:150
+Stack trace:
+#0 C:\xampp\htdocs\the-sporacle\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\the-sporacle\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\the-sporacle\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\the-sporacle\wp-content\themes\the-sporacle\front-page.php on line 150
+

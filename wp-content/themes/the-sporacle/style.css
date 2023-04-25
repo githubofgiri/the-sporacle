@@ -1,0 +1,21 @@
+/**
+Theme Name:the-sporacle
+Author: Giridhari
+Description:This for only practices
+version:1.0
+License:GPLV2
+
+ */
+/**Home Page */
+.con p {color: white;}
+.con p {overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;white-space: pre-wrap;}
+
+a.h3{overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;white-space: pre-wrap;}
+
+
+.product-area .product .txt-area .left-txt li.icon ul li a:hover .yith-wcwl-icon {color: #06ffea;}
+.product-area .product .txt-area .left-txt li.icon ul li .yith-wcwl-add-button{max-width: 30px;overflow:hidden; max-height:30px;}
+.product-area .product .txt-area .left-txt li.icon ul li a{max-width: 30px;overflow: hidden;max-height: 30px;background-color: transparent;}
+
+
+
